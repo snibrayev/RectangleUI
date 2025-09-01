@@ -9,6 +9,7 @@ import java.io.IOException;
 
 /**
  * written by Solomon Ibrayev on 26/08/2025
+ * Finished
  */
 public class ShowHideApplication extends Application {
 
