@@ -16,8 +16,8 @@ public class ShowHideApplication extends Application {
 
 
     public void start(Stage primaryStage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(ShowHideApplication.class.getResource("ShowHide.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 400, 400);
+        FXMLLoader fxmlLoader = new FXMLLoader(ShowHideApplication.class.getResource("showhide-view.fxml"));
+        Scene scene = new Scene(fxmlLoader.load(), 600, 400);
         primaryStage.setTitle(" SHOW | HIDE");
         primaryStage.setScene(scene);
         primaryStage.show();
